@@ -1,6 +1,6 @@
 # Домашнее задание к занятию "`Жизненный цикл ПО`" - `Бакулев Евгений`
 
-### Что нужно сделать
+### Основная часть
 
 Необходимо создать собственные workflow для двух типов задач: bug и остальные типы задач. Задачи типа bug должны проходить жизненный цикл:
 
@@ -20,6 +20,8 @@
 4. On test -> On develop, Done.
 5. Done -> Closed, Open.
 
+Что нужно сделать:
+
 1. Создайте задачу с типом bug, попытайтесь провести его по всему workflow до Done.
 2. Создайте задачу с типом epic, к ней привяжите несколько задач с типом task, проведите их по всему workflow до Done.
 3. При проведении обеих задач по статусам используйте kanban.
@@ -27,15 +29,8 @@
 5. Перейдите в Scrum, запланируйте новый спринт, состоящий из задач эпика и одного бага, стартуйте спринт, проведите задачи до состояния Closed. Закройте спринт.
 6. Если всё отработалось в рамках ожидания — выгрузите схемы workflow для импорта в XML. Файлы с workflow и скриншоты workflow приложите к решению задания.
 
+![Скриншот](https://github.com/garrkiss/Jira/blob/main/img/bug.png)
+![Скриншот](https://github.com/garrkiss/Jira/blob/main/img/all.png)
 
-
-
-![Скриншот](https://github.com/garrkiss/terraform_2/blob/main/img/task1/task1-1.png)
-
-### Задание 4
-
-![Скриншот](https://github.com/garrkiss/terraform_2/blob/main/img/task4/task4.png)
-
-
-По остальным заданиям [Ссылка на репозиторий](https://github.com/garrkiss/terra2)
-
+[Workflow Bug](https://github.com/garrkiss/Jira/blob/main/files/Bug.xml)
+[Workflow All](https://github.com/garrkiss/Jira/blob/main/files/All.xml)
